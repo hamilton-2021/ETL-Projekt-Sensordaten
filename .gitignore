@@ -1,0 +1,23 @@
+# Bytecode-Dateien
+__pycache__/
+*.py[cod]
+
+# Temporäre Dateien
+*.log
+*.tmp
+
+# Editor-/OS-spezifisch
+.DS_Store
+.vscode/
+*.swp
+
+# Virtuelle Umgebungen
+env/
+.venv/
+venv/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Private Dateien (z. B. Tokens oder Passwörter)
+.env
