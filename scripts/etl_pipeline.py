@@ -20,7 +20,7 @@ print(f"Luftfeuchtigkeit Ø: {df['humidity_%'].mean():.2f} %")
 
 # Visualisierung
 plt.figure(figsize=(10, 5))
-plt.plot(df["timestamp"], df["temperature_C"], label="Temperatur (°C)")
+plt.plot(df["timestamp"], df["temperature_C"], label="Temperatur (°C)", color="green")
 plt.plot(df["timestamp"], df["humidity_%"], label="Luftfeuchtigkeit (%)")
 plt.xlabel("Zeit")
 plt.ylabel("Wert")
